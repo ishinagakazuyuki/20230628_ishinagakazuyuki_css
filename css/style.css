@@ -1,10 +1,10 @@
 .header {
     display: flex;
-    margin: 20px;
+    margin: 30px 30px 150px 30px;
 }
 
 .header__ttl {
-    font-size: 30px;
+    font-size: 2vw;
     color: DarkBlue;
 }
 
@@ -18,7 +18,7 @@
 
 .menu__item {
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: DarkBlue;
     margin-left: 30px;
     font-weight: bold;
@@ -30,7 +30,6 @@
 
 .main {
     position: relative;
-    top: 70px;
 }
 
 .main__right {
@@ -41,15 +40,15 @@
 
 .main__txt {
     position: absolute;
-    top: 65%;
-    font-size: 90px;
+    top: 60%;
+    font-size: 6vw;
 }
 
 .main__left {
     position: absolute;
     top: 80%;
     background-color: DarkBlue;
-    width: 1450px;
-    height: 250px;
+    width: 75%;
+    height: 40%;
     z-index: -10;
 }
